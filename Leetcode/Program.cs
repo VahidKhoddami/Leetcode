@@ -31,17 +31,22 @@
 //Console.WriteLine(minimumAbsoluteDifferenceInBST.GetMinimumDifference(root));
 
 //Maximum difference between node and ancestor: https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
-var maximumDifferenceBetweenNodeAndAncestor = new MaximumDifferenceBetweenNodeAndAncestorProblem();
-var root = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(8);
-root.left = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(3);
-root.left.left = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(1);
-root.left.right = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(6);
-root.left.right.left = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(4);
-root.left.right.right = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(7);
-root.right = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(10);
-root.right.right = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(14);
-root.right.right.left = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(13);
-Console.WriteLine(maximumDifferenceBetweenNodeAndAncestor.MaxAncestorDiff(root));
+//var maximumDifferenceBetweenNodeAndAncestor = new MaximumDifferenceBetweenNodeAndAncestorProblem();
+//var root = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(8);
+//root.left = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(3);
+//root.left.left = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(1);
+//root.left.right = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(6);
+//root.left.right.left = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(4);
+//root.left.right.right = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(7);
+//root.right = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(10);
+//root.right.right = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(14);
+//root.right.right.left = new MaximumDifferenceBetweenNodeAndAncestorProblem.TreeNode(13);
+//Console.WriteLine(maximumDifferenceBetweenNodeAndAncestor.MaxAncestorDiff(root));
+
+//Determine if string halves are alike: https://leetcode.com/problems/determine-if-string-halves-are-alike/
+var determineIfStringHalvesAreAlike = new DetermineIfStringHalvesAreAlikeProblem();
+Console.WriteLine(determineIfStringHalvesAreAlike.HalvesAreAlike_BetterApproach("book"));
+
 
 
 
