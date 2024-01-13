@@ -44,8 +44,13 @@
 //Console.WriteLine(maximumDifferenceBetweenNodeAndAncestor.MaxAncestorDiff(root));
 
 //Determine if string halves are alike: https://leetcode.com/problems/determine-if-string-halves-are-alike/
-var determineIfStringHalvesAreAlike = new DetermineIfStringHalvesAreAlikeProblem();
-Console.WriteLine(determineIfStringHalvesAreAlike.HalvesAreAlike_BetterApproach("book"));
+//var determineIfStringHalvesAreAlike = new DetermineIfStringHalvesAreAlikeProblem();
+//Console.WriteLine(determineIfStringHalvesAreAlike.HalvesAreAlike_BetterApproach("book"));
+
+//Minimum number of steps to make two strings anagram: https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/
+var minimumNumberOfStepsToMakeTwoStringsAnagram = new MinimumNumberOfStepsToMakeTwoStringsAnagramProblem();
+Console.WriteLine(minimumNumberOfStepsToMakeTwoStringsAnagram.MinSteps("leetcode", "practice"));
+
 
 
 
