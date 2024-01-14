@@ -48,8 +48,17 @@
 //Console.WriteLine(determineIfStringHalvesAreAlike.HalvesAreAlike_BetterApproach("book"));
 
 //Minimum number of steps to make two strings anagram: https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/
-var minimumNumberOfStepsToMakeTwoStringsAnagram = new MinimumNumberOfStepsToMakeTwoStringsAnagramProblem();
-Console.WriteLine(minimumNumberOfStepsToMakeTwoStringsAnagram.MinSteps("leetcode", "practice"));
+//var minimumNumberOfStepsToMakeTwoStringsAnagram = new MinimumNumberOfStepsToMakeTwoStringsAnagramProblem();
+//Console.WriteLine(minimumNumberOfStepsToMakeTwoStringsAnagram.MinSteps("leetcode", "practice"));
+
+//Determine if two strings are close: https://leetcode.com/problems/determine-if-two-strings-are-close/
+var determineIfTwoStringsAreClose = new DetermineIfTwoStringsAreCloseProblem();
+Console.WriteLine(determineIfTwoStringsAreClose.CloseStrings("abc", "bca"));//True
+Console.WriteLine(determineIfTwoStringsAreClose.CloseStrings("abcd", "bca"));//False
+Console.WriteLine(determineIfTwoStringsAreClose.CloseStrings("abcd", "bcaf"));//False
+Console.WriteLine(determineIfTwoStringsAreClose.CloseStrings("cabbba", "abbccc"));//True
+Console.WriteLine(determineIfTwoStringsAreClose.CloseStrings("svotbsgqiqmeqjwdqqtkucrzqphqxqtqqlyfan", "aapyhufaaaalkqsvtjnaaoewxkrgsbsazadmci"));//True
+
 
 
 
