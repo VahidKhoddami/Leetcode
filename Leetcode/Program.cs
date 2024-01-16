@@ -52,12 +52,23 @@
 //Console.WriteLine(minimumNumberOfStepsToMakeTwoStringsAnagram.MinSteps("leetcode", "practice"));
 
 //Determine if two strings are close: https://leetcode.com/problems/determine-if-two-strings-are-close/
-var determineIfTwoStringsAreClose = new DetermineIfTwoStringsAreCloseProblem();
-Console.WriteLine(determineIfTwoStringsAreClose.CloseStrings("abc", "bca"));//True
-Console.WriteLine(determineIfTwoStringsAreClose.CloseStrings("abcd", "bca"));//False
-Console.WriteLine(determineIfTwoStringsAreClose.CloseStrings("abcd", "bcaf"));//False
-Console.WriteLine(determineIfTwoStringsAreClose.CloseStrings("cabbba", "abbccc"));//True
-Console.WriteLine(determineIfTwoStringsAreClose.CloseStrings("svotbsgqiqmeqjwdqqtkucrzqphqxqtqqlyfan", "aapyhufaaaalkqsvtjnaaoewxkrgsbsazadmci"));//True
+//var determineIfTwoStringsAreClose = new DetermineIfTwoStringsAreCloseProblem();
+//Console.WriteLine(determineIfTwoStringsAreClose.CloseStrings("abc", "bca"));//True
+//Console.WriteLine(determineIfTwoStringsAreClose.CloseStrings("abcd", "bca"));//False
+//Console.WriteLine(determineIfTwoStringsAreClose.CloseStrings("abcd", "bcaf"));//False
+//Console.WriteLine(determineIfTwoStringsAreClose.CloseStrings("cabbba", "abbccc"));//True
+//Console.WriteLine(determineIfTwoStringsAreClose.CloseStrings("svotbsgqiqmeqjwdqqtkucrzqphqxqtqqlyfan", "aapyhufaaaalkqsvtjnaaoewxkrgsbsazadmci"));//True
+
+//Find players with zero or one losses: https://leetcode.com/problems/find-players-with-zero-or-one-losses/
+var findPlayersWithZeroOrOneLosses = new FindPlayersWithZeroOrOneLossesProblem();
+var input = new int[][] { new int[] { 1, 3 }, new int[] { 2, 3 }, new int[] { 3, 6 }, new int[] { 5, 6 }, new int[] { 5, 7 }, 
+    new int[] { 4, 5 }, new int[] { 4, 8 }, new int[] { 4, 9 }, new int[] { 10, 4 }, new int[] { 10, 9 } };
+var output = findPlayersWithZeroOrOneLosses.FindWinners(input);
+foreach (var item in output)
+{
+    Console.WriteLine(item);
+}
+
 
 
 
