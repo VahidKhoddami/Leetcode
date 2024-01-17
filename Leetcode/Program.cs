@@ -70,14 +70,20 @@
 //}
 
 //Insert Delete GetRandom O(1): https://leetcode.com/problems/insert-delete-getrandom-o1/
-var randomizedSet = new RandomizedSet();
-Console.WriteLine(randomizedSet.Insert(1));
-Console.WriteLine(randomizedSet.Remove(2));
-Console.WriteLine(randomizedSet.Insert(2));
-Console.WriteLine(randomizedSet.GetRandom());
-Console.WriteLine(randomizedSet.Remove(1));
-Console.WriteLine(randomizedSet.Insert(2));
-Console.WriteLine(randomizedSet.GetRandom());
+//var randomizedSet = new RandomizedSet();
+//Console.WriteLine(randomizedSet.Insert(1));
+//Console.WriteLine(randomizedSet.Remove(2));
+//Console.WriteLine(randomizedSet.Insert(2));
+//Console.WriteLine(randomizedSet.GetRandom());
+//Console.WriteLine(randomizedSet.Remove(1));
+//Console.WriteLine(randomizedSet.Insert(2));
+//Console.WriteLine(randomizedSet.GetRandom());
+
+//Unique Number of Occurrences: https://leetcode.com/problems/unique-number-of-occurrences/
+var uniqueNumberOfOccurrences = new UniqueNumberOfOccurrencesProblem();
+Console.WriteLine(uniqueNumberOfOccurrences.UniqueOccurrences(new int[] { 1, 2, 2, 1, 1, 3 }));//True
+Console.WriteLine(uniqueNumberOfOccurrences.UniqueOccurrences(new int[] { 1, 2 }));//False
+
 
 
 
