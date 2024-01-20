@@ -80,9 +80,21 @@
 //Console.WriteLine(randomizedSet.GetRandom());
 
 //Unique Number of Occurrences: https://leetcode.com/problems/unique-number-of-occurrences/
-var uniqueNumberOfOccurrences = new UniqueNumberOfOccurrencesProblem();
-Console.WriteLine(uniqueNumberOfOccurrences.UniqueOccurrences(new int[] { 1, 2, 2, 1, 1, 3 }));//True
-Console.WriteLine(uniqueNumberOfOccurrences.UniqueOccurrences(new int[] { 1, 2 }));//False
+//var uniqueNumberOfOccurrences = new UniqueNumberOfOccurrencesProblem();
+//Console.WriteLine(uniqueNumberOfOccurrences.UniqueOccurrences(new int[] { 1, 2, 2, 1, 1, 3 }));//True
+//Console.WriteLine(uniqueNumberOfOccurrences.UniqueOccurrences(new int[] { 1, 2 }));//False
+
+//Climbing stairs: https://leetcode.com/problems/climbing-stairs/
+//var climbingStairs = new ClimbingStairsProblem();
+//Console.WriteLine(climbingStairs.ClimbStairs(2));
+//Console.WriteLine(climbingStairs.ClimbStairs(3));
+
+//Minimum falling path sum: https://leetcode.com/problems/minimum-falling-path-sum/
+var minimumFallingPathSum = new MinimumFallingPathSumProblem();
+var input = new int[][] { new int[] { 2, 1, 3 }, new int[] { 6, 5, 4 }, new int[] { 7, 8, 9 } };
+Console.WriteLine(minimumFallingPathSum.MinFallingPathSum(input));
+
+
 
 
 
