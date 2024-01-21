@@ -94,9 +94,7 @@
 //var input = new int[][] { new int[] { 2, 1, 3 }, new int[] { 6, 5, 4 }, new int[] { 7, 8, 9 } };
 //Console.WriteLine(minimumFallingPathSum.MinFallingPathSum(input));
 
-//Sum subarray minimums: https://leetcode.com/problems/sum-of-subarray-minimums/
-var sumSubarrayMinimums = new SumSubarrayMinimumsProblem();
-Console.WriteLine(sumSubarrayMinimums.SumSubarrayMins(new int[] { 3, 1, 2, 4 }));
+
 
 
 
