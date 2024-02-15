@@ -38,5 +38,27 @@ public class RearrangeArrayElementsbySignMProblem
 
         return nums;
     }
+
+    /* A faster efficient solution
+     public int[] RearrangeArray(int[] nums) {
+        var posIndex=0;
+        var negIndex=1;
+        var res=new int[nums.Length];
+        
+        for(int i=0;i<nums.Length;i++){
+            if(nums[i]>0){
+                res[posIndex]=nums[i];
+                posIndex+=2;
+            }
+            else
+            {
+                res[negIndex]=nums[i];
+                negIndex+=2;
+            }
+        }
+
+        return res;
+    }
+     */
 }
 
